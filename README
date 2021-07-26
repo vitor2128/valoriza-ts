@@ -1,0 +1,35 @@
+Rotas 
+
+// tags
+necessario passar o token, a rota irá listar todos os elogios
+
+// awards
+necessario passar o token, a rota irá listar todos os premios de resgates
+
+// users
+necessario passar o token e ser admin, a rota irá listar todos os usuarios
+
+// users/compliments/send
+irá listar todos elogios enviados
+
+// users/compliments/receive
+irá listar todos elogios recebidos
+
+// login
+irá retonar seu token de acesso
+
+// tags
+rota para criar elogios, necessario ser admin, necessario passar name e value
+
+// awards
+rota para criar premio, necessario ser admin, necessario passar name e value
+
+// users
+rota para criar usuario, necessario passar name, email e password
+
+// compliments
+rota para elogiar usuario, necessario passar a id do elogio(tag_id), usuario que irá receber,
+(user_receiver) e menssagem(message) que deseja colocar
+
+// rewards
+rota para resgatar premio, necessario passar a id do premio(award_id)
